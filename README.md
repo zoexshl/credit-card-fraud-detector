@@ -19,8 +19,9 @@ Ce projet implémente un **système de détection de fraudes** en temps réel po
 ---
 
 ## **Architecture du Système**
-
-<img src="https://github.com/user-attachments/assets/3a3aaf18-5278-46fd-a83a-4cad4eb9c7a5"/>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3a3aaf18-5278-46fd-a83a-4cad4eb9c7a5" width="200"/>
+</p>
 
 ## **Installation et Configuration**
 
@@ -53,7 +54,7 @@ fraud-detection/
 
 ---
 
-## **Méthodologie Scientifique**
+## **Méthodologie**
 
 ### 1. **Préparation des Données**
 - **Normalisation** : Scaling robuste pour les montants
