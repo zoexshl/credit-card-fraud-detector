@@ -1,4 +1,4 @@
-# 🔍 Détecteur de Fraude par Carte de Crédit
+# Détecteur de Fraude par Carte de Crédit
 
 > **Un système intelligent de détection de fraudes utilisant Machine Learning et une interface Streamlit interactive**
 
