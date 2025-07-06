@@ -1,0 +1,23 @@
+# Éviter d'ajouter des fichiers sensibles ou inutiles
+data/creditcard.csv
+# Clé d'API Kaggle
+kaggle.json
+.kaggle/
+
+# Fichiers de modèle
+models/*.joblib
+models/*.pkl
+
+# Fichiers de cache / Python
+__pycache__/
+*.pyc
+
+# Checkpoints Jupyter
+*.ipynb_checkpoints/
+
+# Environnements virtuels
+venv/
+.env/
+
+# Fichiers images générés
+models/*.png
