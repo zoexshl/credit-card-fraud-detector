@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 st.set_page_config(page_title="Détecteur de Fraude", layout="centered")
-st.title("💳 Détecteur de Fraude par Carte de Crédit")
+st.title("Détecteur de Fraude par Carte de Crédit")
 
 # Charger le modèle sauvegardé
 model = joblib.load("models/random_forest.joblib")

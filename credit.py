@@ -2,6 +2,8 @@ import pandas as pd  # Pour manipuler les données (tableaux, colonnes, etc.)
 import matplotlib.pyplot as plt  # Pour faire des graphiques
 import seaborn as sns  # Pour les graphiques stylés (genre heatmap)
 import joblib
+import os
+
 
 
 # Librairies Machine Learning
@@ -16,6 +18,9 @@ from sklearn.metrics import (
     roc_curve,
     roc_auc_score
 )
+os.makedirs("data", exist_ok=True)
+os.makedirs("models", exist_ok=True)
+
 
 # === 1. Chargement des données ===
 df = pd.read_csv('data/creditcard.csv') 
